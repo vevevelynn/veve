@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+.container {
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+button {
+    padding: 1em 2em;
+    font-size: 1em;
+    cursor: pointer;
+}
+.flower-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.flower {
+    font-size: 2em;
+    margin: 0 0.5em;
+    color: pink; /* Change the flower color to pink */
+}
